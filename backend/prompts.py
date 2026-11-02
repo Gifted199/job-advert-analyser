@@ -116,3 +116,4 @@ TECHNIQUES = {
     "role": role_prompt,
     "chain_of_thought": chain_of_thought,
 }
+DEFAULT_TECHNIQUE = "few_shot"

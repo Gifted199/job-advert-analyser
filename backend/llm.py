@@ -4,7 +4,7 @@ from dotenv import find_dotenv, load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel, ValidationError
 
-from prompts import TECHNIQUES
+from prompts import DEFAULT_TECHNIQUE, TECHNIQUES
 from schemas import JobExtraction, ReasonedExtraction
 
 load_dotenv(find_dotenv(usecwd=True))
@@ -54,7 +54,7 @@ def get_validated(messages: list[dict], model_class: type[BaseModel]) -> tuple[B
         return model_class.model_validate_json(raw_retry), 1
 
 
-def extract(advert: str, technique: str = "role") -> tuple[JobExtraction, int]:
+def extract(advert: str, technique: str = DEFAULT_TECHNIQUE) -> tuple[JobExtraction, int]:
     """Extract job fields from an advert using the named prompting technique."""
     messages = TECHNIQUES[technique](advert)
     if technique == "chain_of_thought":

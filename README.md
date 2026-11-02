@@ -1,0 +1,12 @@
+# Accuracy
+| technique        |   job_title |   seniority |   required_skills |   nice_to_have_skills |   salary_min |   salary_max |   remote |   overall |   all_fields_correct |   avg_seconds |   retries |   failures |
+|:-----------------|------------:|------------:|------------------:|----------------------:|-------------:|-------------:|---------:|----------:|---------------------:|--------------:|----------:|-----------:|
+| zero_shot        |         100 |         100 |              87.5 |                   100 |          100 |          100 |      100 |      98.2 |                 87.5 |           0.8 |         0 |          0 |
+| few_shot         |         100 |         100 |              95.8 |                   100 |          100 |          100 |      100 |      99.4 |                 95.8 |           0.8 |         0 |          0 |
+| role             |         100 |         100 |              87.5 |                   100 |          100 |          100 |      100 |      98.2 |                 87.5 |           1   |         0 |          0 |
+| chain_of_thought |         100 |         100 |              91.7 |                   100 |          100 |          100 |      100 |      98.8 |                 91.7 |           1.2 |         0 |          0 |
+
+
+Chosen technique: few-shot. All four techniques scored 100% on six of the seven fields, so the comparison came down to required_skills. Few-shot made the fewest mistakes (1 of 24 adverts, 95.8% fully correct), compared with 2 for chain of thought and 3 each for zero-shot and role. Its worked examples showed rules being applied, such as dropping soft skills, which zero-shot and role got wrong on ex18. Few-shot sends longer prompts and so uses more input tokens than zero-shot, but it was no slower (0.8s on average). Chain of thought cost more output tokens and time (1.2s) without being more accurate. The role persona made no measurable difference over zero-shot.
+
+Caveats: the gaps are small (one advert is about 4 percentage points) and come from a single run on 24 examples. The remaining errors (ex12 “HR reporting”, ex23 “backups”) are boundary cases of what counts as a skill; labels were not changed after seeing model output, to avoid tuning the test set to the model.
