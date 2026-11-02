@@ -1,0 +1,92 @@
+[
+  {
+    "cal_id": "c01",
+    "reason": "The bullets are highly aligned with the advert\u2019s core tools: SQL, Excel, and Power BI all appear, with Python used as a bonus. However, they contain multiple invented facts such as \"Manchester-based retail group NorthStar Market,\" \"ClearView Logistics,\" \"Apex Retail Solutions,\" specific counts like \"14 trading teams,\" and numeric outcomes like \"68%\" and \"\u00a3120K,\" which are unsupported by the prompt.",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 1,
+    "overall": 1,
+    "retries": 0
+  },
+  {
+    "cal_id": "c02",
+    "reason": "All three bullets are clearly aligned to the advert\u2019s required stack: Python, Spark, Airflow, and AWS, with Terraform and dbt also mentioned. They are fairly specific about tasks and tools, but they do not include any concrete results beyond generic claims like \u201cimprove maintainability and scalability\u201d and \u201cdelivering robust, reusable models.\u201d",
+    "relevance": 5,
+    "specificity": 4,
+    "honesty": 5,
+    "overall": 4,
+    "retries": 0
+  },
+  {
+    "cal_id": "c03",
+    "reason": "All three bullets are clearly aligned to the advert\u2019s core skills: Power BI, DAX, SQL Server, with Azure Data Factory included as a desirable extra. They are also fairly specific about tools and tasks, but they do not include any unsupported numbers, company names, or dates; the only placeholders are generic and acceptable. ",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 5,
+    "overall": 5,
+    "retries": 0
+  },
+  {
+    "cal_id": "c04",
+    "reason": "The bullets are generic office-support statements and do not target the advert\u2019s core requirements of Google Analytics 4, Excel, Looker Studio, or SQL. They also contain no concrete tools, tasks, or outcomes, so they are low in specificity. There are no invented numbers or company details, but the content is still too vague to be useful for this role.",
+    "relevance": 1,
+    "specificity": 1,
+    "honesty": 5,
+    "overall": 1,
+    "retries": 0
+  },
+  {
+    "cal_id": "c05",
+    "reason": "The bullets are strongly aligned with the advert\u2019s core tools: SQL, Tableau and Excel appear throughout, and Python is included as an advantageous skill. However, the set contains multiple invented facts such as \"Boots UK,\" \"Experian,\" \"15+ senior stakeholders,\" \"\u00a3120m retail portfolio,\" and specific percentage gains, which are unsupported by the prompt. The bullets are specific and targeted, but the fabricated employers, numbers and outcomes reduce trustworthiness.",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 1,
+    "overall": 2,
+    "retries": 0
+  },
+  {
+    "cal_id": "c06",
+    "reason": "The bullets are highly relevant to the advert because they directly target SQL, Python, A/B testing, and even include the nice-to-have Snowflake. However, they contain multiple invented specifics such as \"ASOS,\" \"Deliveroo,\" \"Barclays UK,\" \"12M+ customer events,\" \"25+ A/B tests,\" and precise uplift figures, which are unsupported and therefore undermine trust.",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 1,
+    "overall": 2,
+    "retries": 0
+  },
+  {
+    "cal_id": "c07",
+    "reason": "The bullets are generic operations/teamwork statements and do not target the advert\u2019s essential skills in Python, causal inference, or experiment design. They also contain no concrete tools, tasks, or results, and there are no invented facts or numbers, but they are largely too vague to be useful for this role.",
+    "relevance": 1,
+    "specificity": 1,
+    "honesty": 5,
+    "overall": 1,
+    "retries": 0
+  },
+  {
+    "cal_id": "c08",
+    "reason": "All three bullets are closely aligned to the advert: stakeholder management, Collibra, data quality frameworks, and GDPR are all directly targeted. The bullets are also fairly specific, naming concrete tools and tasks, though they stay high-level on results. Honesty is strong because the only specifics are placeholders and advert-aligned terms; there are no invented numbers, dates, or company names.",
+    "relevance": 5,
+    "specificity": 4,
+    "honesty": 5,
+    "overall": 5,
+    "retries": 0
+  },
+  {
+    "cal_id": "c09",
+    "reason": "All three bullets are clearly aligned to the advert\u2019s required skills: Windows 11, Active Directory, Microsoft 365 administration, and on-site IT support. They are fairly specific because they name concrete tasks and tools, though the third bullet is a little more generic in how it describes using CompTIA A+ principles. Honesty is high because the only non-advert detail is the placeholder \"[team or company]\" and there are no invented numbers, dates, or company names.",
+    "relevance": 5,
+    "specificity": 4,
+    "honesty": 5,
+    "overall": 5,
+    "retries": 0
+  },
+  {
+    "cal_id": "c10",
+    "reason": "All three bullets are clearly aligned to the advert\u2019s core requirements: PostgreSQL/MySQL administration, Bash scripting, and backup support. They are concrete enough to be useful, and the only unsupported details are the placeholders like \"[team or company]\" and \"[data or systems]\", which are acceptable; no invented company names, dates, or numbers appear.",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 5,
+    "overall": 5,
+    "retries": 0
+  }
+]

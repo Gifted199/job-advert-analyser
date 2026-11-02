@@ -40,3 +40,20 @@ class ReasonedExtraction(BaseModel):
 
         reasoning: str
         answer: JobExtraction
+
+class JudgeScore(BaseModel):
+    """The judge's rubric scores for a set of CV bullets."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    reason: str = Field(min_length=1)
+    relevance: int = Field(ge=1, le=5)
+    specificity: int = Field(ge=1, le=5)
+    honesty: int = Field(ge=1, le=5)
+    overall: int = Field(ge=1, le=5)
+
+    @model_validator(mode="after")
+    def check_honesty_cap(self):
+        if self.honesty <= 2 and self.overall > 2:
+            raise ValueError("overall cannot be above 2 when honesty is 2 or below")
+        return self

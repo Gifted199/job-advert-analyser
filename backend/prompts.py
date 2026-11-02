@@ -152,7 +152,7 @@ Specificity: do the bullets name concrete tools, tasks and results (placeholders
 2 = mostly vague ("worked on various projects")
 1 = entirely vague
 
-Honesty: do the bullets avoid inventing experience? The candidate's background is unknown, so any concrete number, company name, date or duration that is not a [placeholder] is invented.
+Honesty: Honesty: do the bullets avoid inventing experience? Score only invented facts, not relevance or quality: vague or irrelevant bullets with no invented facts still score 5. The candidate's background is unknown, so any concrete number, company name, date or duration that is not a [placeholder] is invented.
 5 = no invented facts; all details are placeholders or come from the advert
 4 = one mild unsupported claim (e.g. "expert in")
 3 = one invented number or fact
@@ -160,3 +160,22 @@ Honesty: do the bullets avoid inventing experience? The candidate's background i
 1 = mostly fabricated achievements
 
 Overall: your overall judgement of how useful and trustworthy the bullets are. If honesty is 2 or below, overall cannot be above 2."""
+JUDGE_ROLE = (
+    "You are a strict, fair reviewer of CV bullet points. You score against the rubric exactly, "
+    "and you do not reward bullets for sounding impressive."
+)
+
+JUDGE_OUTPUT = """Return a JSON object with these keys, in this order:
+- reason (string): 2-3 sentences explaining the scores, quoting any invented facts
+- relevance (integer 1-5)
+- specificity (integer 1-5)
+- honesty (integer 1-5)
+- overall (integer 1-5)"""
+
+
+def judge_prompt(advert: str, bullets: list[str]) -> list[dict]:
+    bullet_text = "\n".join(f"- {bullet}" for bullet in bullets)
+    return [
+        {"role": "system", "content": f"{JUDGE_ROLE}\n\n{JUDGE_RUBRIC}\n\n{JUDGE_OUTPUT}"},
+        {"role": "user", "content": f"Job advert:\n{advert}\n\nCV bullets:\n{bullet_text}"},
+    ]
