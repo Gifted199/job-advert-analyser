@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+try_*.py
+smoke_test.py
+validate_data.py
