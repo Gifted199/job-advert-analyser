@@ -1,0 +1,2097 @@
+[
+  {
+    "technique": "zero_shot",
+    "id": "ex01",
+    "predicted": {
+      "job_title": "Data Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "SQL",
+        "Excel",
+        "Power BI"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 28000,
+      "salary_max": 32000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.83,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex02",
+    "predicted": {
+      "job_title": "Data Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "AWS"
+      ],
+      "nice_to_have_skills": [
+        "Terraform",
+        "dbt"
+      ],
+      "salary_min": 70000,
+      "salary_max": 85000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.78,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex03",
+    "predicted": {
+      "job_title": "Software Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "Java",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Spring Boot"
+      ],
+      "salary_min": 27500,
+      "salary_max": 27500,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.67,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex04",
+    "predicted": {
+      "job_title": "Power BI Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "Power BI",
+        "DAX",
+        "SQL Server"
+      ],
+      "nice_to_have_skills": [
+        "Azure Data Factory"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.92,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex05",
+    "predicted": {
+      "job_title": "Machine Learning Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "PyTorch",
+        "Kubernetes",
+        "MLflow"
+      ],
+      "nice_to_have_skills": [
+        "LLMs"
+      ],
+      "salary_min": null,
+      "salary_max": 110000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.65,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex06",
+    "predicted": {
+      "job_title": "Marketing Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Google Analytics 4",
+        "Excel",
+        "Looker Studio"
+      ],
+      "nice_to_have_skills": [
+        "SQL"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.78,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex07",
+    "predicted": {
+      "job_title": "Full Stack Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "nice_to_have_skills": [
+        "AWS"
+      ],
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.77,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex08",
+    "predicted": {
+      "job_title": "Data Entry Clerk",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Sage"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.32,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex09",
+    "predicted": {
+      "job_title": "Business Intelligence Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Tableau",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Python",
+        "R"
+      ],
+      "salary_min": 38000,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.07,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex10",
+    "predicted": {
+      "job_title": "Cloud Architect",
+      "seniority": "senior",
+      "required_skills": [
+        "Azure",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "nice_to_have_skills": [
+        "AWS certification"
+      ],
+      "salary_min": 95000,
+      "salary_max": 95000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.98,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex11",
+    "predicted": {
+      "job_title": "QA Tester",
+      "seniority": "junior",
+      "required_skills": [
+        "manual testing",
+        "Jira"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 24000,
+      "salary_max": 26000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.8,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex12",
+    "predicted": {
+      "job_title": "HR Data Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Excel",
+        "Workday",
+        "HR reporting"
+      ],
+      "nice_to_have_skills": [
+        "Power BI"
+      ],
+      "salary_min": 32000,
+      "salary_max": 36000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.73,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex13",
+    "predicted": {
+      "job_title": "Customer Insights Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Python",
+        "A/B testing"
+      ],
+      "nice_to_have_skills": [
+        "Snowflake"
+      ],
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.76,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex14",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "causal inference",
+        "experiment design"
+      ],
+      "nice_to_have_skills": [
+        "Bayesian modelling"
+      ],
+      "salary_min": 120000,
+      "salary_max": 140000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.76,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex15",
+    "predicted": {
+      "job_title": "Sales Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Salesforce",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "HubSpot"
+      ],
+      "salary_min": 30000,
+      "salary_max": 30000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.74,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex16",
+    "predicted": {
+      "job_title": "DevOps Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "Terraform"
+      ],
+      "nice_to_have_skills": [
+        "Ansible",
+        "Python"
+      ],
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.06,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex17",
+    "predicted": {
+      "job_title": "Web Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "nice_to_have_skills": [
+        "WordPress"
+      ],
+      "salary_min": 25000,
+      "salary_max": 25000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.81,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex18",
+    "predicted": {
+      "job_title": "Data Governance Manager",
+      "seniority": "senior",
+      "required_skills": [
+        "Collibra",
+        "data quality frameworks",
+        "GDPR",
+        "stakeholder management",
+        "communication skills"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.98,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex19",
+    "predicted": {
+      "job_title": "Analytics Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "dbt",
+        "SQL",
+        "Snowflake"
+      ],
+      "nice_to_have_skills": [
+        "Looker"
+      ],
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.65,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex20",
+    "predicted": {
+      "job_title": "IT Support Technician",
+      "seniority": "mid",
+      "required_skills": [
+        "Windows 11",
+        "Active Directory",
+        "Microsoft 365 administration"
+      ],
+      "nice_to_have_skills": [
+        "CompTIA A+"
+      ],
+      "salary_min": 26000,
+      "salary_max": 26000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.8,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex21",
+    "predicted": {
+      "job_title": "Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Power Automate"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.75,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex22",
+    "predicted": {
+      "job_title": "Product Analyst",
+      "seniority": "senior",
+      "required_skills": [
+        "SQL",
+        "Amplitude",
+        "experimentation"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.22,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex23",
+    "predicted": {
+      "job_title": "Database Administrator",
+      "seniority": "senior",
+      "required_skills": [
+        "PostgreSQL",
+        "MySQL",
+        "Bash",
+        "backups"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 50000,
+      "salary_max": 58000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.63,
+    "error": null
+  },
+  {
+    "technique": "zero_shot",
+    "id": "ex24",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "junior",
+      "required_skills": [
+        "Python",
+        "statistics"
+      ],
+      "nice_to_have_skills": [
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "salary_min": 34000,
+      "salary_max": 34000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.92,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex01",
+    "predicted": {
+      "job_title": "Data Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "SQL",
+        "Excel",
+        "Power BI"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 28000,
+      "salary_max": 32000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.98,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex02",
+    "predicted": {
+      "job_title": "Data Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "AWS"
+      ],
+      "nice_to_have_skills": [
+        "Terraform",
+        "dbt"
+      ],
+      "salary_min": 70000,
+      "salary_max": 85000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.7,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex03",
+    "predicted": {
+      "job_title": "Software Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "Java",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Spring Boot"
+      ],
+      "salary_min": 27500,
+      "salary_max": 27500,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.83,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex04",
+    "predicted": {
+      "job_title": "Power BI Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "Power BI",
+        "DAX",
+        "SQL Server"
+      ],
+      "nice_to_have_skills": [
+        "Azure Data Factory"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.8,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex05",
+    "predicted": {
+      "job_title": "Machine Learning Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "PyTorch",
+        "Kubernetes",
+        "MLflow"
+      ],
+      "nice_to_have_skills": [
+        "LLMs"
+      ],
+      "salary_min": null,
+      "salary_max": 110000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.74,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex06",
+    "predicted": {
+      "job_title": "Marketing Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Google Analytics 4",
+        "Excel",
+        "Looker Studio"
+      ],
+      "nice_to_have_skills": [
+        "SQL"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.67,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex07",
+    "predicted": {
+      "job_title": "Full Stack Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "nice_to_have_skills": [
+        "AWS"
+      ],
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.61,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex08",
+    "predicted": {
+      "job_title": "Data Entry Clerk",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Sage"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.68,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex09",
+    "predicted": {
+      "job_title": "Business Intelligence Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Tableau",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Python",
+        "R"
+      ],
+      "salary_min": 38000,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.81,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex10",
+    "predicted": {
+      "job_title": "Cloud Architect",
+      "seniority": "senior",
+      "required_skills": [
+        "Azure",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "nice_to_have_skills": [
+        "AWS certification"
+      ],
+      "salary_min": 95000,
+      "salary_max": 95000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.65,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex11",
+    "predicted": {
+      "job_title": "QA Tester",
+      "seniority": "junior",
+      "required_skills": [
+        "manual testing",
+        "Jira"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 24000,
+      "salary_max": 26000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.74,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex12",
+    "predicted": {
+      "job_title": "HR Data Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Excel",
+        "Workday"
+      ],
+      "nice_to_have_skills": [
+        "Power BI"
+      ],
+      "salary_min": 32000,
+      "salary_max": 36000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.76,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex13",
+    "predicted": {
+      "job_title": "Customer Insights Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Python",
+        "A/B testing"
+      ],
+      "nice_to_have_skills": [
+        "Snowflake"
+      ],
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.84,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex14",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "causal inference",
+        "experiment design"
+      ],
+      "nice_to_have_skills": [
+        "Bayesian modelling"
+      ],
+      "salary_min": 120000,
+      "salary_max": 140000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.04,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex15",
+    "predicted": {
+      "job_title": "Sales Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Salesforce",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "HubSpot"
+      ],
+      "salary_min": 30000,
+      "salary_max": 30000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.92,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex16",
+    "predicted": {
+      "job_title": "DevOps Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "Terraform"
+      ],
+      "nice_to_have_skills": [
+        "Ansible",
+        "Python"
+      ],
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.89,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex17",
+    "predicted": {
+      "job_title": "Web Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "nice_to_have_skills": [
+        "WordPress"
+      ],
+      "salary_min": 25000,
+      "salary_max": 25000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.92,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex18",
+    "predicted": {
+      "job_title": "Data Governance Manager",
+      "seniority": "senior",
+      "required_skills": [
+        "Collibra",
+        "data quality frameworks",
+        "GDPR"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.79,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex19",
+    "predicted": {
+      "job_title": "Analytics Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "dbt",
+        "SQL",
+        "Snowflake"
+      ],
+      "nice_to_have_skills": [
+        "Looker"
+      ],
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.79,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex20",
+    "predicted": {
+      "job_title": "IT Support Technician",
+      "seniority": "mid",
+      "required_skills": [
+        "Windows 11",
+        "Active Directory",
+        "Microsoft 365 administration"
+      ],
+      "nice_to_have_skills": [
+        "CompTIA A+"
+      ],
+      "salary_min": 26000,
+      "salary_max": 26000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.73,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex21",
+    "predicted": {
+      "job_title": "Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Power Automate"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.64,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex22",
+    "predicted": {
+      "job_title": "Product Analyst",
+      "seniority": "senior",
+      "required_skills": [
+        "SQL",
+        "Amplitude",
+        "experimentation"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.27,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex23",
+    "predicted": {
+      "job_title": "Database Administrator",
+      "seniority": "senior",
+      "required_skills": [
+        "PostgreSQL",
+        "MySQL",
+        "Bash",
+        "backups"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 50000,
+      "salary_max": 58000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.74,
+    "error": null
+  },
+  {
+    "technique": "few_shot",
+    "id": "ex24",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "junior",
+      "required_skills": [
+        "Python",
+        "statistics"
+      ],
+      "nice_to_have_skills": [
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "salary_min": 34000,
+      "salary_max": 34000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.16,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex01",
+    "predicted": {
+      "job_title": "Data Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "SQL",
+        "Excel",
+        "Power BI"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 28000,
+      "salary_max": 32000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.97,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex02",
+    "predicted": {
+      "job_title": "Data Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "AWS"
+      ],
+      "nice_to_have_skills": [
+        "Terraform",
+        "dbt"
+      ],
+      "salary_min": 70000,
+      "salary_max": 85000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.21,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex03",
+    "predicted": {
+      "job_title": "Software Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "Java",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Spring Boot"
+      ],
+      "salary_min": 27500,
+      "salary_max": 27500,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.98,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex04",
+    "predicted": {
+      "job_title": "Power BI Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "Power BI",
+        "DAX",
+        "SQL Server"
+      ],
+      "nice_to_have_skills": [
+        "Azure Data Factory"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.07,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex05",
+    "predicted": {
+      "job_title": "Machine Learning Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "PyTorch",
+        "Kubernetes",
+        "MLflow"
+      ],
+      "nice_to_have_skills": [
+        "LLMs"
+      ],
+      "salary_min": null,
+      "salary_max": 110000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.08,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex06",
+    "predicted": {
+      "job_title": "Marketing Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Google Analytics 4",
+        "Excel",
+        "Looker Studio"
+      ],
+      "nice_to_have_skills": [
+        "SQL"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.99,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex07",
+    "predicted": {
+      "job_title": "Full Stack Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "nice_to_have_skills": [
+        "AWS"
+      ],
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.08,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex08",
+    "predicted": {
+      "job_title": "Data Entry Clerk",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Sage"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.14,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex09",
+    "predicted": {
+      "job_title": "Business Intelligence Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Tableau",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Python",
+        "R"
+      ],
+      "salary_min": 38000,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.04,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex10",
+    "predicted": {
+      "job_title": "Cloud Architect",
+      "seniority": "senior",
+      "required_skills": [
+        "Azure",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "nice_to_have_skills": [
+        "AWS certification"
+      ],
+      "salary_min": 95000,
+      "salary_max": 95000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.06,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex11",
+    "predicted": {
+      "job_title": "QA Tester",
+      "seniority": "junior",
+      "required_skills": [
+        "manual testing",
+        "Jira"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 24000,
+      "salary_max": 26000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.13,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex12",
+    "predicted": {
+      "job_title": "HR Data Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Excel",
+        "Workday",
+        "HR reporting"
+      ],
+      "nice_to_have_skills": [
+        "Power BI"
+      ],
+      "salary_min": 32000,
+      "salary_max": 36000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.88,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex13",
+    "predicted": {
+      "job_title": "Customer Insights Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Python",
+        "A/B testing"
+      ],
+      "nice_to_have_skills": [
+        "Snowflake"
+      ],
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.23,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex14",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "causal inference",
+        "experiment design"
+      ],
+      "nice_to_have_skills": [
+        "Bayesian modelling"
+      ],
+      "salary_min": 120000,
+      "salary_max": 140000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.93,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex15",
+    "predicted": {
+      "job_title": "Sales Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Salesforce",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "HubSpot"
+      ],
+      "salary_min": 30000,
+      "salary_max": 30000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.06,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex16",
+    "predicted": {
+      "job_title": "DevOps Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "Terraform"
+      ],
+      "nice_to_have_skills": [
+        "Ansible",
+        "Python"
+      ],
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.11,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex17",
+    "predicted": {
+      "job_title": "Web Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "nice_to_have_skills": [
+        "WordPress"
+      ],
+      "salary_min": 25000,
+      "salary_max": 25000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.19,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex18",
+    "predicted": {
+      "job_title": "Data Governance Manager",
+      "seniority": "senior",
+      "required_skills": [
+        "stakeholder management",
+        "communication skills",
+        "Collibra",
+        "data quality frameworks",
+        "GDPR"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.05,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex19",
+    "predicted": {
+      "job_title": "Analytics Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "dbt",
+        "SQL",
+        "Snowflake"
+      ],
+      "nice_to_have_skills": [
+        "Looker"
+      ],
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.95,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex20",
+    "predicted": {
+      "job_title": "IT Support Technician",
+      "seniority": "mid",
+      "required_skills": [
+        "Windows 11",
+        "Active Directory",
+        "Microsoft 365 administration"
+      ],
+      "nice_to_have_skills": [
+        "CompTIA A+"
+      ],
+      "salary_min": 26000,
+      "salary_max": 26000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.22,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex21",
+    "predicted": {
+      "job_title": "Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Power Automate"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.99,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex22",
+    "predicted": {
+      "job_title": "Product Analyst",
+      "seniority": "senior",
+      "required_skills": [
+        "SQL",
+        "Amplitude",
+        "experimentation"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.86,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex23",
+    "predicted": {
+      "job_title": "Database Administrator",
+      "seniority": "senior",
+      "required_skills": [
+        "PostgreSQL",
+        "MySQL",
+        "Bash",
+        "backups"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 50000,
+      "salary_max": 58000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 0.76,
+    "error": null
+  },
+  {
+    "technique": "role",
+    "id": "ex24",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "junior",
+      "required_skills": [
+        "Python",
+        "statistics"
+      ],
+      "nice_to_have_skills": [
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "salary_min": 34000,
+      "salary_max": 34000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.05,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex01",
+    "predicted": {
+      "job_title": "Data Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "SQL",
+        "Excel",
+        "Power BI"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 28000,
+      "salary_max": 32000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.1,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex02",
+    "predicted": {
+      "job_title": "Data Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "AWS"
+      ],
+      "nice_to_have_skills": [
+        "Terraform",
+        "dbt"
+      ],
+      "salary_min": 70000,
+      "salary_max": 85000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.05,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex03",
+    "predicted": {
+      "job_title": "Software Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "Java",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Spring Boot"
+      ],
+      "salary_min": 27500,
+      "salary_max": 27500,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.2,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex04",
+    "predicted": {
+      "job_title": "Power BI Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "Power BI",
+        "DAX",
+        "SQL Server"
+      ],
+      "nice_to_have_skills": [
+        "Azure Data Factory"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.07,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex05",
+    "predicted": {
+      "job_title": "Machine Learning Engineer",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "PyTorch",
+        "Kubernetes",
+        "MLflow"
+      ],
+      "nice_to_have_skills": [
+        "LLMs"
+      ],
+      "salary_min": null,
+      "salary_max": 110000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.2,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex06",
+    "predicted": {
+      "job_title": "Marketing Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Google Analytics 4",
+        "Excel",
+        "Looker Studio"
+      ],
+      "nice_to_have_skills": [
+        "SQL"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.18,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex07",
+    "predicted": {
+      "job_title": "Full Stack Developer",
+      "seniority": "mid",
+      "required_skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "nice_to_have_skills": [
+        "AWS"
+      ],
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.03,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex08",
+    "predicted": {
+      "job_title": "Data Entry Clerk",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Sage"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.05,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex09",
+    "predicted": {
+      "job_title": "Business Intelligence Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Tableau",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "Python",
+        "R"
+      ],
+      "salary_min": 38000,
+      "salary_max": null,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.3,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex10",
+    "predicted": {
+      "job_title": "Cloud Architect",
+      "seniority": "senior",
+      "required_skills": [
+        "Azure",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "nice_to_have_skills": [
+        "AWS certification"
+      ],
+      "salary_min": 95000,
+      "salary_max": 95000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 0.96,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex11",
+    "predicted": {
+      "job_title": "QA Tester",
+      "seniority": "junior",
+      "required_skills": [
+        "manual testing",
+        "Jira"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 24000,
+      "salary_max": 26000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 0.99,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex12",
+    "predicted": {
+      "job_title": "HR Data Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "Excel",
+        "Workday",
+        "HR reporting"
+      ],
+      "nice_to_have_skills": [
+        "Power BI"
+      ],
+      "salary_min": 32000,
+      "salary_max": 36000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.17,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex13",
+    "predicted": {
+      "job_title": "Customer Insights Analyst",
+      "seniority": "mid",
+      "required_skills": [
+        "SQL",
+        "Python",
+        "A/B testing"
+      ],
+      "nice_to_have_skills": [
+        "Snowflake"
+      ],
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.08,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex14",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "senior",
+      "required_skills": [
+        "Python",
+        "causal inference",
+        "experiment design"
+      ],
+      "nice_to_have_skills": [
+        "Bayesian modelling"
+      ],
+      "salary_min": 120000,
+      "salary_max": 140000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.17,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex15",
+    "predicted": {
+      "job_title": "Sales Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Salesforce",
+        "Excel"
+      ],
+      "nice_to_have_skills": [
+        "HubSpot"
+      ],
+      "salary_min": 30000,
+      "salary_max": 30000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.21,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex16",
+    "predicted": {
+      "job_title": "DevOps Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "Terraform"
+      ],
+      "nice_to_have_skills": [
+        "Ansible",
+        "Python"
+      ],
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.1,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex17",
+    "predicted": {
+      "job_title": "Web Developer",
+      "seniority": "junior",
+      "required_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "nice_to_have_skills": [
+        "WordPress"
+      ],
+      "salary_min": 25000,
+      "salary_max": 25000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.03,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex18",
+    "predicted": {
+      "job_title": "Data Governance Manager",
+      "seniority": "senior",
+      "required_skills": [
+        "Collibra",
+        "data quality frameworks",
+        "GDPR"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.16,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex19",
+    "predicted": {
+      "job_title": "Analytics Engineer",
+      "seniority": "mid",
+      "required_skills": [
+        "dbt",
+        "SQL",
+        "Snowflake"
+      ],
+      "nice_to_have_skills": [
+        "Looker"
+      ],
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.41,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex20",
+    "predicted": {
+      "job_title": "IT Support Technician",
+      "seniority": "mid",
+      "required_skills": [
+        "Windows 11",
+        "Active Directory",
+        "Microsoft 365 administration"
+      ],
+      "nice_to_have_skills": [
+        "CompTIA A+"
+      ],
+      "salary_min": 26000,
+      "salary_max": 26000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.23,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex21",
+    "predicted": {
+      "job_title": "Operations Analyst",
+      "seniority": "junior",
+      "required_skills": [
+        "Excel",
+        "SQL"
+      ],
+      "nice_to_have_skills": [
+        "Power Automate"
+      ],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.23,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex22",
+    "predicted": {
+      "job_title": "Product Analyst",
+      "seniority": "senior",
+      "required_skills": [
+        "SQL",
+        "Amplitude",
+        "experimentation"
+      ],
+      "nice_to_have_skills": [
+        "Python"
+      ],
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "remote": "remote"
+    },
+    "retries": 0,
+    "seconds": 1.35,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex23",
+    "predicted": {
+      "job_title": "Database Administrator",
+      "seniority": "senior",
+      "required_skills": [
+        "PostgreSQL",
+        "MySQL",
+        "Bash scripts",
+        "backups"
+      ],
+      "nice_to_have_skills": [],
+      "salary_min": 50000,
+      "salary_max": 58000,
+      "remote": "onsite"
+    },
+    "retries": 0,
+    "seconds": 1.13,
+    "error": null
+  },
+  {
+    "technique": "chain_of_thought",
+    "id": "ex24",
+    "predicted": {
+      "job_title": "Data Scientist",
+      "seniority": "junior",
+      "required_skills": [
+        "Python",
+        "statistics"
+      ],
+      "nice_to_have_skills": [
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "salary_min": 34000,
+      "salary_max": 34000,
+      "remote": "hybrid"
+    },
+    "retries": 0,
+    "seconds": 1.28,
+    "error": null
+  }
+]
