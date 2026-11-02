@@ -1,0 +1,42 @@
+[
+  {
+    "cal_id": "c01",
+    "variant": "invented"
+  },
+  {
+    "cal_id": "c02",
+    "variant": "app"
+  },
+  {
+    "cal_id": "c03",
+    "variant": "app"
+  },
+  {
+    "cal_id": "c04",
+    "variant": "generic"
+  },
+  {
+    "cal_id": "c05",
+    "variant": "invented"
+  },
+  {
+    "cal_id": "c06",
+    "variant": "invented"
+  },
+  {
+    "cal_id": "c07",
+    "variant": "generic"
+  },
+  {
+    "cal_id": "c08",
+    "variant": "app"
+  },
+  {
+    "cal_id": "c09",
+    "variant": "app"
+  },
+  {
+    "cal_id": "c10",
+    "variant": "app"
+  }
+]

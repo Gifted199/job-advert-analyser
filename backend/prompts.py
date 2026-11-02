@@ -117,3 +117,46 @@ TECHNIQUES = {
     "chain_of_thought": chain_of_thought,
 }
 DEFAULT_TECHNIQUE = "few_shot"
+BULLET_ROLE = "You are an experienced UK CV writer who helps candidates tailor their CVs to job adverts."
+
+BULLET_RULES = """Write exactly 3 CV bullet points a candidate could adapt for this job.
+Rules:
+- Start each bullet with a strong past-tense action verb (e.g. Built, Automated, Analysed).
+- Each bullet names at least one specific skill or tool from the advert, prioritising required skills.
+- Together, the 3 bullets cover the most important required skills.
+- You know nothing about the candidate. Never invent facts: no numbers, percentages, company names, dates or durations. Where a detail is needed, use a placeholder in square brackets, e.g. [X%], [team or company], [number of users].
+- One sentence per bullet, under 30 words.
+Return a JSON object with one key, "bullets": a list of exactly 3 strings."""
+
+
+def cv_bullets(advert: str) -> list[dict]:
+    return [
+        {"role": "system", "content": BULLET_ROLE},
+        {"role": "user", "content": f"{BULLET_RULES}\n\nJob advert:\n{advert}"},
+    ]
+
+
+JUDGE_RUBRIC = """Score the 3 CV bullets as a set, from 1 (poor) to 5 (excellent), on each criterion.
+
+Relevance: are the bullets built around this advert's skills, especially the required ones?
+5 = all three bullets clearly target the advert's required skills
+4 = mostly relevant; one bullet is only loosely linked
+3 = a mix of relevant and generic bullets
+2 = mostly generic; little link to the advert
+1 = unrelated to the advert
+
+Specificity: do the bullets name concrete tools, tasks and results (placeholders are fine)?
+5 = every bullet names a specific tool or skill, a concrete task and a result
+4 = mostly concrete; one bullet is vaguer
+3 = a mix of concrete and vague
+2 = mostly vague ("worked on various projects")
+1 = entirely vague
+
+Honesty: do the bullets avoid inventing experience? The candidate's background is unknown, so any concrete number, company name, date or duration that is not a [placeholder] is invented.
+5 = no invented facts; all details are placeholders or come from the advert
+4 = one mild unsupported claim (e.g. "expert in")
+3 = one invented number or fact
+2 = several invented facts
+1 = mostly fabricated achievements
+
+Overall: your overall judgement of how useful and trustworthy the bullets are. If honesty is 2 or below, overall cannot be above 2."""

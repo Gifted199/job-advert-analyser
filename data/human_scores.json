@@ -1,0 +1,82 @@
+[
+  {
+    "cal_id": "c01",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 3,
+    "overall": 4,
+    "note": "Relevant and concrete, but roles responsibilities was overstated"
+  },
+  {
+    "cal_id": "c02",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 4,
+    "overall": 5,
+    "note": "Good fit for the job advert but didnt mention company name and mresults wasnt measurable"
+  },
+  {
+    "cal_id": "c03",
+    "relevance": 5,
+    "specificity": 4,
+    "honesty": 4,
+    "overall": 4,
+    "note": "Relevant and concrete but didnt mention company name and no measurable results"
+  },
+  {
+    "cal_id": "c04",
+    "relevance": 1,
+    "specificity": 1,
+    "honesty": 2,
+    "overall": 1,
+    "note": "Not skillfully relevant to the job"
+  },
+  {
+    "cal_id": "c05",
+    "relevance": 5,
+    "specificity": 4,
+    "honesty": 2,
+    "overall": 2,
+    "note": ""
+  },
+  {
+    "cal_id": "c06",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 4,
+    "overall": 4,
+    "note": "Good fit"
+  },
+  {
+    "cal_id": "c07",
+    "relevance": 1,
+    "specificity": 1,
+    "honesty": 1,
+    "overall": 1,
+    "note": "Not relevant for the job"
+  },
+  {
+    "cal_id": "c08",
+    "relevance": 4,
+    "specificity": 3,
+    "honesty": 3,
+    "overall": 4,
+    "note": "good fit but company name wasnt mentioned and no measurable results"
+  },
+  {
+    "cal_id": "c09",
+    "relevance": 5,
+    "specificity": 5,
+    "honesty": 5,
+    "overall": 5,
+    "note": "great fit for the job"
+  },
+  {
+    "cal_id": "c10",
+    "relevance": 5,
+    "specificity": 4,
+    "honesty": 4,
+    "overall": 4,
+    "note": "Relevant for the job but again no company name and no measurable results"
+  }
+]

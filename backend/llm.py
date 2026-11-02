@@ -4,8 +4,8 @@ from dotenv import find_dotenv, load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel, ValidationError
 
-from prompts import DEFAULT_TECHNIQUE, TECHNIQUES
-from schemas import JobExtraction, ReasonedExtraction
+from prompts import DEFAULT_TECHNIQUE, TECHNIQUES, cv_bullets
+from schemas import CVBullets, JobExtraction, ReasonedExtraction
 
 load_dotenv(find_dotenv(usecwd=True))
 
@@ -61,3 +61,8 @@ def extract(advert: str, technique: str = DEFAULT_TECHNIQUE) -> tuple[JobExtract
         result, retries = get_validated(messages, ReasonedExtraction)
         return result.answer, retries
     return get_validated(messages, JobExtraction)
+
+
+def generate_bullets(advert: str) -> tuple[CVBullets, int]:
+    """Write 3 CV bullet suggestions for an advert, validated with one retry."""
+    return get_validated(cv_bullets(advert), CVBullets)

@@ -1,0 +1,102 @@
+[
+  {
+    "cal_id": "c01",
+    "example_id": "ex01",
+    "advert": "Junior Data Analyst, Manchester (hybrid, 3 days in office). \u00a328,000-\u00a332,000. You'll need SQL, Excel and Power BI; Python is a plus. 0-2 years' experience.",
+    "bullets": [
+      "Built automated SQL and Excel reporting for Manchester-based retail group NorthStar Market, reducing monthly KPI production time by 68% and improving data accuracy across 14 trading teams.",
+      "Developed Power BI dashboards for senior stakeholders at ClearView Logistics, consolidating 12 data sources into a single reporting layer and increasing weekly decision-making speed by 3x.",
+      "Used Python and advanced Excel modelling to analyse customer and operational trends for Apex Retail Solutions, identifying \u00a3120K in annual cost-saving opportunities and supporting a 9% uplift in forecast accuracy."
+    ]
+  },
+  {
+    "cal_id": "c02",
+    "example_id": "ex02",
+    "advert": "Senior Data Engineer \u2013 fully remote (UK). \u00a370,000\u2013\u00a385,000. Must have: Python, Spark, Airflow, AWS. Nice to have: Terraform, dbt. 6+ years building data pipelines.",
+    "bullets": [
+      "Built data pipelines using Python, Spark and Airflow to support reliable batch and orchestration workflows across [team or company].",
+      "Automated AWS-based data processing and storage solutions, applying Python and Spark to improve pipeline maintainability and scalability.",
+      "Collaborated on data engineering initiatives using Terraform and dbt, delivering robust, reusable models and infrastructure for [team or company]."
+    ]
+  },
+  {
+    "cal_id": "c03",
+    "example_id": "ex04",
+    "advert": "Power BI Developer (6-month contract), London, hybrid 2 days a week. \u00a3450-\u00a3500 per day outside IR35. Required: Power BI, DAX, SQL Server. Azure Data Factory desirable. 3-5 years' experience.",
+    "bullets": [
+      "Built interactive Power BI dashboards and reports, using DAX measures and SQL Server data models to deliver clear business insights for [team or company].",
+      "Developed and optimised Power BI solutions by writing efficient DAX calculations and SQL Server queries to improve report performance and reliability.",
+      "Supported cloud data workflows with Azure Data Factory, integrating SQL Server sources into Power BI datasets and maintaining accurate, reusable reporting assets."
+    ]
+  },
+  {
+    "cal_id": "c04",
+    "example_id": "ex06",
+    "advert": "Marketing Analyst \u2013 Birmingham. Competitive salary + benefits. Work from our Birmingham office 3 days a week. You'll use Google Analytics 4, Excel and Looker Studio daily. SQL would be helpful. Around 3 years' experience in a similar role.",
+    "bullets": [
+      "Supported day-to-day office operations by managing tasks accurately and meeting deadlines.",
+      "Communicated clearly with colleagues and stakeholders to keep work moving smoothly and efficiently.",
+      "Organised information, priorities, and follow-up actions to help deliver consistent results."
+    ]
+  },
+  {
+    "cal_id": "c05",
+    "example_id": "ex09",
+    "advert": "Business Intelligence Analyst, Nottingham. From \u00a338,000 depending on experience. Required skills: SQL, Tableau, Excel. Knowledge of Python or R is advantageous. 2-4 years' experience.",
+    "bullets": [
+      "Business Intelligence Analyst at Boots UK \u2014 built SQL-driven Tableau dashboards and automated Excel reporting for 15+ senior stakeholders, reducing weekly reporting time by 70% and improving commercial decision-making across a \u00a3120m retail portfolio.",
+      "At Experian, partnered with finance and operations teams to develop a single source of truth in SQL and Tableau, consolidating 8 fragmented data feeds into a governed KPI suite that improved forecast accuracy by 18% and cut manual reconciliation errors by 90%.",
+      "Used advanced Excel modelling and Python automation to analyse customer and sales trends for an e-commerce business, identifying a \u00a3450k revenue uplift opportunity and delivering board-level insights that supported a 12% increase in campaign ROI."
+    ]
+  },
+  {
+    "cal_id": "c06",
+    "example_id": "ex13",
+    "advert": "Customer Insights Analyst \u2013 work from home (UK-based). \u00a335,000\u2013\u00a340,000. Skills required: SQL, Python, A/B testing. Experience with Snowflake is nice to have. Mid-level role.",
+    "bullets": [
+      "Led customer insight analytics at a UK e-commerce retailer (ASOS), using SQL and Python to unify 12M+ customer events in Snowflake and build a self-serve reporting layer that cut ad hoc analysis turnaround from 3 days to under 4 hours.",
+      "Designed and analysed 25+ A/B tests across onboarding, pricing, and retention journeys at Deliveroo, partnering with Product and CRM teams to validate statistically significant uplifts, including a 7.8% increase in repeat purchase rate and a 4.1% reduction in churn.",
+      "Built predictive customer segmentation and propensity models in Python for Barclays UK, improving campaign targeting across 4.5M customers and increasing email conversion by 18% while reducing marketing waste by \u00a3320k annually."
+    ]
+  },
+  {
+    "cal_id": "c07",
+    "example_id": "ex14",
+    "advert": "Principal Data Scientist, London (hybrid \u2013 1 day per week in office). \u00a3120,000 \u2013 \u00a3140,000 + bonus. Essential: Python, causal inference, experiment design. Bonus points for Bayesian modelling. 8+ years' experience.",
+    "bullets": [
+      "Managed day-to-day tasks and priorities to support smooth office operations and timely completion of work.",
+      "Communicated clearly with colleagues and stakeholders to coordinate tasks, resolve issues, and keep work moving forward.",
+      "Reviewed information carefully, maintained accurate records, and contributed to high-quality output in a team environment."
+    ]
+  },
+  {
+    "cal_id": "c08",
+    "example_id": "ex18",
+    "advert": "Data Governance Manager, remote. \u00a365,000-\u00a375,000. Strong stakeholder management and communication skills. Must have experience with Collibra and data quality frameworks. GDPR knowledge essential. Senior-level role.",
+    "bullets": [
+      "Led stakeholder management and communication across [team or company], translating complex data governance requirements into clear actions for senior teams.",
+      "Implemented Collibra workflows and data quality frameworks to strengthen governance controls, standards and issue resolution across [dataset or business area].",
+      "Applied GDPR knowledge to support compliant data governance practices, aligning policies, controls and documentation with regulatory requirements."
+    ]
+  },
+  {
+    "cal_id": "c09",
+    "example_id": "ex20",
+    "advert": "IT Support Technician, Coventry. On-site role. \u00a326,000 per annum. Windows 11, Active Directory and Microsoft 365 administration required. CompTIA A+ is desirable.",
+    "bullets": [
+      "Supported Windows 11 users with troubleshooting, hardware setup and software installs, using Active Directory and Microsoft 365 administration to resolve access issues.",
+      "Managed Active Directory accounts and Microsoft 365 administration tasks, including password resets, mailbox support and permission changes for [team or company].",
+      "Delivered on-site IT support as a first-line technician, applying CompTIA A+ principles to diagnose faults and escalate complex issues appropriately."
+    ]
+  },
+  {
+    "cal_id": "c10",
+    "example_id": "ex23",
+    "advert": "Database Administrator, Bristol, onsite. \u00a350,000 \u2013 \u00a358,000. You will manage PostgreSQL and MySQL databases, write Bash scripts and support backups. 5+ years' experience.",
+    "bullets": [
+      "Managed PostgreSQL and MySQL databases, supporting reliable administration, backup processes and day-to-day operational stability for [team or company].",
+      "Automated routine database tasks using Bash scripts, improving consistency across PostgreSQL and MySQL maintenance workflows.",
+      "Supported database backups and recovery activities, applying PostgreSQL and MySQL best practices to protect [data or systems]."
+    ]
+  }
+]
