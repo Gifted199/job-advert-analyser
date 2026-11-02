@@ -57,3 +57,20 @@ class JudgeScore(BaseModel):
         if self.honesty <= 2 and self.overall > 2:
             raise ValueError("overall cannot be above 2 when honesty is 2 or below")
         return self
+
+class AnalyseRequest(BaseModel):
+    """What the client sends to POST /analyse."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    advert: str = Field(min_length=1, max_length=10000, description="The full text of a job advert")
+
+
+class AnalyseResponse(BaseModel):
+    """What POST /analyse sends back."""
+
+    extraction: JobExtraction
+    bullets: list[str] = Field(min_length=3, max_length=3)
+    judge: JudgeScore
+    technique: str
+    retries: int
