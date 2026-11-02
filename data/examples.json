@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ex01",
+    "note": "Baseline example from the brief",
+    "input": "Junior Data Analyst, Manchester (hybrid, 3 days in office). £28,000-£32,000. You'll need SQL, Excel and Power BI; Python is a plus. 0-2 years' experience.",
+    "expected": {
+      "job_title": "Data Analyst",
+      "seniority": "junior",
+      "required_skills": ["SQL", "Excel", "Power BI"],
+      "nice_to_have_skills": ["Python"],
+      "salary_min": 28000,
+      "salary_max": 32000,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex02",
+    "note": "Senior stripped from title; fully remote",
+    "input": "Senior Data Engineer – fully remote (UK). £70,000–£85,000. Must have: Python, Spark, Airflow, AWS. Nice to have: Terraform, dbt. 6+ years building data pipelines.",
+    "expected": {
+      "job_title": "Data Engineer",
+      "seniority": "senior",
+      "required_skills": ["Python", "Spark", "Airflow", "AWS"],
+      "nice_to_have_skills": ["Terraform", "dbt"],
+      "salary_min": 70000,
+      "salary_max": 85000,
+      "remote": "remote"
+    }
+  },
+  {
+    "id": "ex03",
+    "note": "Graduate maps to junior; single salary figure",
+    "input": "Graduate Software Developer, Leeds. Office-based Monday to Friday. Starting salary £27,500. Java and SQL essential; any exposure to Spring Boot is a bonus.",
+    "expected": {
+      "job_title": "Software Developer",
+      "seniority": "junior",
+      "required_skills": ["Java", "SQL"],
+      "nice_to_have_skills": ["Spring Boot"],
+      "salary_min": 27500,
+      "salary_max": 27500,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex04",
+    "note": "Day rate must be null; contract note removed from title",
+    "input": "Power BI Developer (6-month contract), London, hybrid 2 days a week. £450-£500 per day outside IR35. Required: Power BI, DAX, SQL Server. Azure Data Factory desirable. 3-5 years' experience.",
+    "expected": {
+      "job_title": "Power BI Developer",
+      "seniority": "mid",
+      "required_skills": ["Power BI", "DAX", "SQL Server"],
+      "nice_to_have_skills": ["Azure Data Factory"],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex05",
+    "note": "Lead maps to senior; 'up to' gives max only; remote-first with meetups is remote",
+    "input": "Lead Machine Learning Engineer. Remote-first, with quarterly team meetups in Bristol. Up to £110,000. You must be strong in Python, PyTorch, Kubernetes and MLflow. Experience with LLMs is a plus.",
+    "expected": {
+      "job_title": "Machine Learning Engineer",
+      "seniority": "senior",
+      "required_skills": ["Python", "PyTorch", "Kubernetes", "MLflow"],
+      "nice_to_have_skills": ["LLMs"],
+      "salary_min": null,
+      "salary_max": 110000,
+      "remote": "remote"
+    }
+  },
+  {
+    "id": "ex06",
+    "note": "Competitive salary is null; seniority from years",
+    "input": "Marketing Analyst – Birmingham. Competitive salary + benefits. Work from our Birmingham office 3 days a week. You'll use Google Analytics 4, Excel and Looker Studio daily. SQL would be helpful. Around 3 years' experience in a similar role.",
+    "expected": {
+      "job_title": "Marketing Analyst",
+      "seniority": "mid",
+      "required_skills": ["Google Analytics 4", "Excel", "Looker Studio"],
+      "nice_to_have_skills": ["SQL"],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex07",
+    "note": "Salary in k format",
+    "input": "Mid-level Full Stack Developer, Cardiff (on-site). £45k–£55k. React, TypeScript and Node.js required. AWS experience desirable.",
+    "expected": {
+      "job_title": "Full Stack Developer",
+      "seniority": "mid",
+      "required_skills": ["React", "TypeScript", "Node.js"],
+      "nice_to_have_skills": ["AWS"],
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex08",
+    "note": "Hourly rate is null; 'no experience needed' is junior",
+    "input": "Data Entry Clerk – temporary, Glasgow office. £12.50 per hour. Excel required; experience with Sage is a plus. No experience needed, full training given.",
+    "expected": {
+      "job_title": "Data Entry Clerk",
+      "seniority": "junior",
+      "required_skills": ["Excel"],
+      "nice_to_have_skills": ["Sage"],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex09",
+    "note": "'From' gives min only; no working pattern mentioned so onsite; 'Python or R' split",
+    "input": "Business Intelligence Analyst, Nottingham. From £38,000 depending on experience. Required skills: SQL, Tableau, Excel. Knowledge of Python or R is advantageous. 2-4 years' experience.",
+    "expected": {
+      "job_title": "Business Intelligence Analyst",
+      "seniority": "mid",
+      "required_skills": ["SQL", "Tableau", "Excel"],
+      "nice_to_have_skills": ["Python", "R"],
+      "salary_min": 38000,
+      "salary_max": null,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex10",
+    "note": "Single salary figure, senior",
+    "input": "Senior Cloud Architect – remote within the UK – £95,000. Essential: Azure, Terraform, Kubernetes. Desirable: AWS certification.",
+    "expected": {
+      "job_title": "Cloud Architect",
+      "seniority": "senior",
+      "required_skills": ["Azure", "Terraform", "Kubernetes"],
+      "nice_to_have_skills": ["AWS certification"],
+      "salary_min": 95000,
+      "salary_max": 95000,
+      "remote": "remote"
+    }
+  },
+  {
+    "id": "ex11",
+    "note": "No nice-to-have skills, so empty list",
+    "input": "Junior QA Tester, Reading. Hybrid (2 days in office). £24,000–£26,000. You'll need manual testing experience and familiarity with Jira.",
+    "expected": {
+      "job_title": "QA Tester",
+      "seniority": "junior",
+      "required_skills": ["Manual testing", "Jira"],
+      "nice_to_have_skills": [],
+      "salary_min": 24000,
+      "salary_max": 26000,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex12",
+    "note": "'2+' years is mid",
+    "input": "HR Data Analyst, Sheffield, fully office-based. £32,000 - £36,000. Must know Excel and Workday; Power BI is desirable. 2+ years' experience in HR reporting.",
+    "expected": {
+      "job_title": "HR Data Analyst",
+      "seniority": "mid",
+      "required_skills": ["Excel", "Workday"],
+      "nice_to_have_skills": ["Power BI"],
+      "salary_min": 32000,
+      "salary_max": 36000,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex13",
+    "note": "'Work from home' is remote",
+    "input": "Customer Insights Analyst – work from home (UK-based). £35,000–£40,000. Skills required: SQL, Python, A/B testing. Experience with Snowflake is nice to have. Mid-level role.",
+    "expected": {
+      "job_title": "Customer Insights Analyst",
+      "seniority": "mid",
+      "required_skills": ["SQL", "Python", "A/B testing"],
+      "nice_to_have_skills": ["Snowflake"],
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "remote": "remote"
+    }
+  },
+  {
+    "id": "ex14",
+    "note": "Principal maps to senior; bonus ignored",
+    "input": "Principal Data Scientist, London (hybrid – 1 day per week in office). £120,000 – £140,000 + bonus. Essential: Python, causal inference, experiment design. Bonus points for Bayesian modelling. 8+ years' experience.",
+    "expected": {
+      "job_title": "Data Scientist",
+      "seniority": "senior",
+      "required_skills": ["Python", "causal inference", "experiment design"],
+      "nice_to_have_skills": ["Bayesian modelling"],
+      "salary_min": 120000,
+      "salary_max": 140000,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex15",
+    "note": "Basic salary used, OTE ignored; entry-level is junior",
+    "input": "Sales Operations Analyst, Manchester. Basic £30,000, OTE £38,000. On-site. Salesforce and Excel essential. HubSpot experience desirable. Entry-level role – graduates welcome.",
+    "expected": {
+      "job_title": "Sales Operations Analyst",
+      "seniority": "junior",
+      "required_skills": ["Salesforce", "Excel"],
+      "nice_to_have_skills": ["HubSpot"],
+      "salary_min": 30000,
+      "salary_max": 30000,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex16",
+    "note": "Flexible hybrid; 4 years is mid",
+    "input": "DevOps Engineer – hybrid, Edinburgh (flexible). £60,000–£70,000. Required: Linux, Docker, CI/CD, Terraform. Nice to have: Ansible, Python. 4 years' experience.",
+    "expected": {
+      "job_title": "DevOps Engineer",
+      "seniority": "mid",
+      "required_skills": ["Linux", "Docker", "CI/CD", "Terraform"],
+      "nice_to_have_skills": ["Ansible", "Python"],
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex17",
+    "note": "'Ideally' marks nice-to-have",
+    "input": "Junior Web Developer, Brighton, office-based. £25,000. HTML, CSS and JavaScript needed. Ideally you'll also know WordPress.",
+    "expected": {
+      "job_title": "Web Developer",
+      "seniority": "junior",
+      "required_skills": ["HTML", "CSS", "JavaScript"],
+      "nice_to_have_skills": ["WordPress"],
+      "salary_min": 25000,
+      "salary_max": 25000,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex18",
+    "note": "Soft skills excluded",
+    "input": "Data Governance Manager, remote. £65,000-£75,000. Strong stakeholder management and communication skills. Must have experience with Collibra and data quality frameworks. GDPR knowledge essential. Senior-level role.",
+    "expected": {
+      "job_title": "Data Governance Manager",
+      "seniority": "senior",
+      "required_skills": ["Collibra", "data quality frameworks", "GDPR"],
+      "nice_to_have_skills": [],
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "remote": "remote"
+    }
+  },
+  {
+    "id": "ex19",
+    "note": "Salary without £ sign, 'to' instead of dash",
+    "input": "Analytics Engineer – London, hybrid (3 days office). 55k to 65k. dbt, SQL and Snowflake are must-haves. Looker experience is a bonus. Mid-level.",
+    "expected": {
+      "job_title": "Analytics Engineer",
+      "seniority": "mid",
+      "required_skills": ["dbt", "SQL", "Snowflake"],
+      "nice_to_have_skills": ["Looker"],
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex20",
+    "note": "No level words or years, so default mid",
+    "input": "IT Support Technician, Coventry. On-site role. £26,000 per annum. Windows 11, Active Directory and Microsoft 365 administration required. CompTIA A+ is desirable.",
+    "expected": {
+      "job_title": "IT Support Technician",
+      "seniority": "mid",
+      "required_skills": ["Windows 11", "Active Directory", "Microsoft 365 administration"],
+      "nice_to_have_skills": ["CompTIA A+"],
+      "salary_min": 26000,
+      "salary_max": 26000,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex21",
+    "note": "Monthly pay is null; 1-2 years is junior",
+    "input": "Operations Analyst, Liverpool. Hybrid. £3,000 per month. Excel and SQL essential; Power Automate desirable. 1-2 years' experience.",
+    "expected": {
+      "job_title": "Operations Analyst",
+      "seniority": "junior",
+      "required_skills": ["Excel", "SQL"],
+      "nice_to_have_skills": ["Power Automate"],
+      "salary_min": null,
+      "salary_max": null,
+      "remote": "hybrid"
+    }
+  },
+  {
+    "id": "ex22",
+    "note": "Remote with occasional travel is still remote",
+    "input": "Senior Product Analyst – remote (UK), occasional travel to our Bristol office for workshops. £70,000–£80,000. Required: SQL, Amplitude, experimentation. Python is a plus.",
+    "expected": {
+      "job_title": "Product Analyst",
+      "seniority": "senior",
+      "required_skills": ["SQL", "Amplitude", "experimentation"],
+      "nice_to_have_skills": ["Python"],
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "remote": "remote"
+    }
+  },
+  {
+    "id": "ex23",
+    "note": "Skills in prose with no markers are required; 5+ years is senior",
+    "input": "Database Administrator, Bristol, onsite. £50,000 – £58,000. You will manage PostgreSQL and MySQL databases, write Bash scripts and support backups. 5+ years' experience.",
+    "expected": {
+      "job_title": "Database Administrator",
+      "seniority": "senior",
+      "required_skills": ["PostgreSQL", "MySQL", "Bash"],
+      "nice_to_have_skills": [],
+      "salary_min": 50000,
+      "salary_max": 58000,
+      "remote": "onsite"
+    }
+  },
+  {
+    "id": "ex24",
+    "note": "Graduate title stripped; 'beneficial' marks nice-to-have",
+    "input": "Graduate Data Scientist, Cambridge – hybrid. £34,000. Python and statistics required. Exposure to TensorFlow or scikit-learn is beneficial.",
+    "expected": {
+      "job_title": "Data Scientist",
+      "seniority": "junior",
+      "required_skills": ["Python", "statistics"],
+      "nice_to_have_skills": ["TensorFlow", "scikit-learn"],
+      "salary_min": 34000,
+      "salary_max": 34000,
+      "remote": "hybrid"
+    }
+  }
+]
