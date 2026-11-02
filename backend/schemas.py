@@ -33,3 +33,10 @@ class CVBullets(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     bullets: list[str] = Field(min_length=3, max_length=3)
+class ReasonedExtraction(BaseModel):
+        """Chain-of-thought output: the working, then the answer."""
+
+        model_config = ConfigDict(extra="forbid")
+
+        reasoning: str
+        answer: JobExtraction
